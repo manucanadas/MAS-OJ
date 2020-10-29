@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 123 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-534.983,-281.96)">
+        <g id="Walk" transform="matrix(1,0,0,1,-4.68186,28.6911)">
+            <g transform="matrix(1,0,0,1,254.869,153.269)">
+                <text x="300px" y="136.078px" style="font-family:'Skranji';font-size:48px;fill:url(#_Linear1);">Walk</text>
+            </g>
+            <g transform="matrix(1,0,0,1,546.033,253.269)">
+                <text x="0px" y="36.078px" style="font-family:'Skranji';font-size:48px;fill:url(#_Linear2);">\</text>
+            </g>
+            <g transform="matrix(1,0,0,1,539.196,253.269)">
+                <text x="0px" y="36.078px" style="font-family:'Skranji';font-size:48px;fill:url(#_Linear3);">\</text>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(107.298,68.5,-68.5,107.298,300,87.9442)"><stop offset="0" style="stop-color:rgb(83,83,83);stop-opacity:1"/><stop offset="0.42" style="stop-color:rgb(70,70,70);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(41,41,41);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(17.6729,66,-66,17.6729,0,-10.5558)"><stop offset="0" style="stop-color:rgb(56,255,173);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(0,198,116);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear3" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(10.8364,36.0792,-36.0792,10.8364,6.83645,9.74365e-07)"><stop offset="0" style="stop-color:rgb(0,228,255);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(30,188,253);stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>
