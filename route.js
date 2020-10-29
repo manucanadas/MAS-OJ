@@ -1,7 +1,7 @@
 const { Router } = require('express')
 const express = require('express')
 const router = express.Router()
-
+const db = require('./dbFunctions')
 
 router.get('/', (req, res) => {
 
@@ -10,12 +10,18 @@ router.get('/', (req, res) => {
   })
 
 
-  router.get('/:id', (req, res) => {
-    res.render('./form')
-  })
+  // router.get('/:id', (req, res) => {
+  //   res.render('./form')
+  // })
 
-  router.get('/wellington/results', (req, res) => {
-    res.render('./results')
+  router.get('/:id', (req, res) => {
+    db.getRegion(req.params.id)
+    .then(locations => {
+      console.log (locations)
+      res.render('./results')
+    
+    })
+
   })
 
 
