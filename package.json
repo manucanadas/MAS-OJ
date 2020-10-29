@@ -21,17 +21,20 @@
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^4.0.4",
-    "node": "^15.0.1",
+    "knex": "^0.21.9",
     "sqlite3": "^5.0.0"
   },
   "devDependencies": {
     "jest": "^26.0.1",
-    "nodemon": "^2.0.4",
+    "nodemon": "^2.0.6",
     "supertest": "^4.0.2"
   },
   "jest": {
     "watchPathIgnorePatterns": [
       "data.json"
     ]
+  },
+  "directories": {
+    "test": "tests"
   }
 }
