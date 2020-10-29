@@ -4,11 +4,13 @@ const router = express.Router()
 
 
 router.get('/', (req, res) => {
+
+
     res.render('./home')
   })
 
 
-  router.get('/wellington', (req, res) => {
+  router.get('/:id', (req, res) => {
     res.render('./form')
   })
 

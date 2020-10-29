@@ -6,6 +6,11 @@ a {
   color: #1a1c20;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
 .column {
   float: left;
   width: 25%;
