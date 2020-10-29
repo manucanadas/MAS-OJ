@@ -19,12 +19,12 @@ exports.seed = function(knex) {
         {id: 11, location_id: 102, name: 'Te Ara Piko Pathway and the Pauatahanui Wildlife Management Reserve', length: 3.2, duration: '50mins', difficulty: 'Easy: mixed surface', dog_friendly: true },
         {id: 12, location_id: 102, name: 'Bothamley Pathway', length: 4.2, duration: '1hr 10mins', difficulty: 'Easy: mixed surface, mainly gravel', dog_friendly: true },
        
-        { id: 13, location_id: 103, name: 'Pencarrow Coast Rd', length: 13.1, duration: '2-3hrs', difficulty: 'Easy: mixed surface, mainly gravel', dog_friendly: true },
-        {id: 14, location_id: 103, name: 'Cameron Ridge Track', length: 3.2, duration: '1.1hrs', difficulty: 'Easy: mixed surface, mainly gravel', dog_friendly: true },
-        {id: 15, location_id: 103, name: 'Mackenzie Road Track', length: 4.2, duration: '1.45hrs', difficulty: 'Easy: mixed surface, mainly gravel', dog_friendly: true },
-        {id: 16, location_id: 103, name: 'Lighthouse Track', length: 2.0, duration: '1hr', difficulty: 'Easy: mixed surface, mainly gravel', dog_friendly: true },
-        {id: 17, location_id: 103, name: 'Orongorongo Track', length: 4.3, duration: '2hrs (one way)', difficulty: 'Easy: mixed surface, mainly gravel', dog_friendly: true },
-        {id: 18, location_id: 103, name: 'Main Ridge Track', length: 5.8, duration: '3hrs', difficulty: 'Easy: mixed surface, mainly gravel', dog_friendly: true },
+        { id: 13, location_id: 103, name: 'Pencarrow Coast Rd', length: 13.1, duration: '2-3hrs', difficulty: 'Easy: flat walking track', dog_friendly: true },
+        {id: 14, location_id: 103, name: 'Cameron Ridge Track', length: 3.2, duration: '1.1hrs', difficulty: 'Intermediate: Easier tramping track', dog_friendly: false },
+        {id: 15, location_id: 103, name: 'Mackenzie Road Track', length: 4.2, duration: '1.45hrs', difficulty: 'Intermediate: Easier tramping track', dog_friendly: true },
+        {id: 16, location_id: 103, name: 'Lighthouse Track', length: 2.0, duration: '1hr', difficulty: 'Intermediate: Easier tramping track', dog_friendly: true },
+        {id: 17, location_id: 103, name: 'Orongorongo Track', length: 4.3, duration: '2hrs (one way)', difficulty: 'Easy', dog_friendly: true },
+        {id: 18, location_id: 103, name: 'Main Ridge Track', length: 5.8, duration: '3hrs', difficulty: 'Easy', dog_friendly: true },
       
       ]);
     });
