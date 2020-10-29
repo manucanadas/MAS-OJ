@@ -1,7 +1,14 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
 
+#regions{
 
+}
 /* logo */
 #logo {
   width: 15%;
   height: auto;
+  align-content: center;
 }
