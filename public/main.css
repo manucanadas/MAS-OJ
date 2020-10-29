@@ -9,13 +9,23 @@ a {
 body {
   font-family: 'Roboto', sans-serif;
   text-align: center;
+  background-color: #f6f6f6;
 }
 
 /* home*/
+*{
+  box-sizing: border-box;
+}
+
+.regionSelect{
+padding: 25px;
+font-size: xx-large;
+}
+
 .column {
   float: left;
   width: 25%;
-  padding: 0 10px;
+  padding: 20px 10px;
 }
 
 .card {
@@ -23,7 +33,26 @@ body {
   padding: 16px;
   text-align: center;
   background-color: #f4f4f4;
+  height: 300px;
 }
+
+#WellingtonCity{
+  background-image: url("./images/wellingtonCity.jpg");
+}
+
+#Porirua{
+  background-image: url("./images/porirua.jpg");
+}
+
+ .UpperHutt{
+  background-image: url("./images/upperHutt.jpg");
+  
+} 
+
+#Eastbourne{
+  background-image: url("./images/eastbourne_.jpg");
+} 
+
 /* home*/
 
 /* logo */
@@ -31,7 +60,7 @@ body {
   width: 15%;
   height: auto;
   align-content: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px 0px  50px 0px;
+
 }
 /* logo */
