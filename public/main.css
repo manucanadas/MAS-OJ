@@ -11,6 +11,7 @@ body {
   text-align: center;
 }
 
+/* home*/
 .column {
   float: left;
   width: 25%;
@@ -23,6 +24,7 @@ body {
   text-align: center;
   background-color: #f4f4f4;
 }
+/* home*/
 
 /* logo */
 #logo {
@@ -32,4 +34,4 @@ body {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-
+/* logo */
