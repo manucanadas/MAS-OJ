@@ -20,7 +20,8 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "express-handlebars": "^4.0.4"
+    "express-handlebars": "^4.0.4",
+    "sqlite3": "^5.0.0"
   },
   "devDependencies": {
     "jest": "^26.0.1",
