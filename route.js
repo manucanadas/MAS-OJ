@@ -18,7 +18,7 @@ router.get('/', (req, res) => {
     db.getRegion(req.params.id)
     .then(locations => {
       console.log (locations)
-      res.render('./results')
+      res.render('./results', {locations})
     
     })
 
