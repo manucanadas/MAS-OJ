@@ -5,12 +5,13 @@
 <ul>
     {{#each locations}}
     <li>
-        {{name}}
-    {{location}}
-    {{length}}km
-    {{duration}}
-    {{difficulty}}
-    {{dog_friendly}}
+   Name of track: {{name}}<br>
+    Location: {{location}}<br>
+    Length of track: {{length}}km<br>
+    Time it takes: {{duration}}<br>
+    Difficulty level: {{difficulty}}<br>
+    Dog friendly (1 = yes| 0 = No): {{dog_friendly}}<br>
     </li>
+    <br>
     {{/each}}
 </ul>

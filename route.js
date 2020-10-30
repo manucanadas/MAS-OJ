@@ -9,19 +9,30 @@ router.get('/', (req, res) => {
     res.render('./home')
   })
 
-
-  // router.get('/:id', (req, res) => {
-  //   res.render('./form')
-  // })
-
-  router.get('/:id', (req, res) => {
+  router.get('/:id/results', (req, res) => {
     db.getRegion(req.params.id)
     .then(locations => {
-      console.log (locations)
       res.render('./results', {locations})
-    
     })
+  })
 
+  router.get('/:id', (req, res) => {
+    const id ={
+      id: req.params.id
+    }
+    res.render('./form',id)
+  })
+
+
+
+
+  router.post('/:id', (req,res) =>{
+    const id = req.params.id
+      const filter ={
+        difficulty: req.body.difficulty
+      }
+      console.log(filter)
+      res.redirect(`./${id}/results`)
   })
 
 
