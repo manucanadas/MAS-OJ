@@ -1,0 +1,34 @@
+/* form */
+
+
+.btn{
+
+  background-color: rgb(206, 201, 201);
+  padding:10px;
+  border-radius: 20%;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  
+
+}
+
+/* .container{
+    border-style: double;
+    border-left: none;
+    border-
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto; 
+}*/
+

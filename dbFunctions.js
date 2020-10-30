@@ -5,9 +5,14 @@ const connection = require('knex')(config)
 
 
 
-function getRegion (db = connection) {
-  return db ('region')
+function getRegion (id, db = connection) {
+  return db ('details')
+  .join('locations' , 'details.location_id' , 'locations.id')
+  .where('locations.location', id)
+  .select()
 }
+
+
 
 module.exports = {
     getRegion

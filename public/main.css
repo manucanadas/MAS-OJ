@@ -82,6 +82,16 @@ font-weight: lighter;
   height: auto;
   align-content: center;
   padding: 50px 0px  50px 0px;
+}
+
+.btn{
+
+  background-color: rgb(206, 201, 201);
+  padding:10px;
+  border-radius: 20%;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  
 
 }
-/* logo */
+

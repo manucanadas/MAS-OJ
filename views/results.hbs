@@ -1,3 +1,16 @@
 <h1>these are the walks for you!</h1>
 
 {{!-- {{results}} --}} 
+
+<ul>
+    {{#each locations}}
+    <li>
+        {{name}}:
+        {{location}},
+        {{length}}km,
+        {{duration}},
+        {{difficulty}},
+        {{dog_friendly}},
+    </li>
+    {{/each}}
+</ul>
