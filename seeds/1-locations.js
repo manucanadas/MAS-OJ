@@ -5,10 +5,10 @@ exports.seed = function(knex) {
     .then(function () {
       // Inserts seed entries
       return knex('locations').insert([
-        {id: 101, location: 'Wellington City'},
+        {id: 101, location: 'Wellington-City'},
         {id: 102, location: 'Porirua'},
         {id: 103, location: 'Eastbourne'},
-        {id: 104, location: 'Upper Hutt'}
+        {id: 104, location: 'Upper-Hutt'}
       ]);
     });
 };

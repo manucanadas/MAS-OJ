@@ -1,3 +1,17 @@
 <h1>these are the walks for you!</h1>
 
 {{!-- {{results}} --}} 
+
+<ul>
+    {{#each locations}}
+    <li>
+   Name of track: {{name}}<br>
+    Location: {{location}}<br>
+    Length of track: {{length}}km<br>
+    Time it takes: {{duration}}<br>
+    Difficulty level: {{difficulty}}<br>
+    Dog friendly (1 = yes| 0 = No): {{dog_friendly}}<br>
+    </li>
+    <br>
+    {{/each}}
+</ul>
