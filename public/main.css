@@ -1,36 +1,87 @@
 
 a {
   font-weight: 500;
-  font-size: x-large;
+  font-size: xx-large;
   text-decoration: none;
-  color: #1a1c20;
+  color:#f6f6f6;
+  align-content: center;
 }
+
+a:hover {
+  font-size: 300%;
+}
+
 
 body {
   font-family: 'Roboto', sans-serif;
   text-align: center;
+  background-color: #f6f6f6;
+}
+
+/* home*/
+*{
+  box-sizing: border-box;
+}
+
+.regionSelect{
+padding: 25px;
+font-size: xx-large;
+font-weight: lighter;
+
 }
 
 .column {
   float: left;
   width: 25%;
-  padding: 0 10px;
+  padding: 20px 10px;
 }
 
-.card {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1); /* this adds the "card" effect */
-  padding: 16px;
+.card  {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1); /* this adds the "card" effect */
+  padding: 20px;
   text-align: center;
   background-color: #f4f4f4;
+  height: 250px;
+  background-size:cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
+
+.card a {
+  display: block;
+  width: 100%
+}
+
+
+
+#WellingtonCity{
+  background-image: url("./images/wellingtonCity.jpg");
+}
+
+#Porirua{
+  background-image: url("./images/porirua.jpg");
+}
+
+ #UpperHutt{
+  background-image: url("./images//upperHutt.jpg");
+} 
+
+#Eastbourne{
+  background-image: url("./images/eastbourne_.jpg");
+} 
+
+/* home*/
 
 /* logo */
 #logo {
   width: 15%;
   height: auto;
   align-content: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px 0px  50px 0px;
 }
 
 .btn{
