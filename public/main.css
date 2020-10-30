@@ -11,6 +11,7 @@ a:hover {
   font-size: 300%;
 }
 
+ 
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -18,6 +19,17 @@ body {
   background-color: #f6f6f6;
 }
 
+body ul {
+  text-decoration: none;
+  list-style: none;
+  text-align: left;
+  font-weight: lighter !important; 
+  padding-left: 35%;
+}
+
+ul li {
+  font-display: thin;
+}
 /* home*/
 *{
   box-sizing: border-box;
@@ -85,7 +97,6 @@ font-weight: lighter;
 }
 
 .btn{
-
   background-color: rgb(206, 201, 201);
   padding:10px;
   border-radius: 20%;
