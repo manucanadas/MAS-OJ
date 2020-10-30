@@ -14,7 +14,7 @@ router.get('/', (req, res) => {
     res.render('./form')
   })
 
-  router.get('/:id', (req, res) => {
+  router.get('/:id/results', (req, res) => {
     db.getRegion(req.params.id)
     .then(locations => {
       res.render('./results', {locations})
@@ -25,10 +25,8 @@ router.get('/', (req, res) => {
     const id ={
       id: req.params.id
     }
-    res.render('./form',id)
+    res.render('./form', id)
   })
-
-
 
 
   router.post('/:id', (req,res) =>{
