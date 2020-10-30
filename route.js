@@ -9,7 +9,12 @@ router.get('/', (req, res) => {
     res.render('./home')
   })
 
-  router.get('/:id/results', (req, res) => {
+
+  router.get('/:id', (req, res) => {
+    res.render('./form')
+  })
+
+  router.get('/:id', (req, res) => {
     db.getRegion(req.params.id)
     .then(locations => {
       res.render('./results', {locations})

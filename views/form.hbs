@@ -1,44 +1,58 @@
-<h1>let's find a walk for you</h1>
+<head><link rel="stylesheet" href="form.css"></head>
 
-<form action="/{{id}}" method="POST">
+<body>
+  <div><h1>let's find a walk for you!</h1></div>
+   <br>
+          <br>
+  <div>
+    <form action="/{{id}}" class= "form" class= "container"     method= "POST">
+      <div>
+        <p>will there be a dog joining you?</p>
+        <input type="radio" name="dog" id="dog">
+      <label for="choice-animals-dogs">yes</label>
+      <input type="radio" name="dog" id="dog">
+      <label for="choice-animals-dogs">no</label>
+      </div>
+          <br>
+          <br>
+          <div class=".q">
+            <label class="form item" for="length">how many km:</label>
+            <br>
+            <select id="length" name="length">
+              <option value="0-4km">0-4km</option>
+              <option value="4-8km">4-8km</option>
+              <option value="8+km">8+km</option>
+            </select>
+          </div>
+          <br>
+          <br>
 
-   
-  <p>will there be a dog joining you?</p>
- <input type="radio" id="yes" name="dog" value="yes">
-  <label for="yes">yes</label><br>
-  <input type="radio" id="no" name="dog" value="no">
-  <label for="no">no</label><br>
-<br>
-  <label for="length">how many km:</label>
-  <br>
-  <select id="length" name="length">
-    <option value="0-4km">0-4km</option>
-    <option value="4-8km">4-8km</option>
-    <option value="8+km">8+km</option>
-  </select>
-  <br>
-  <br>
-  <label for="duration">walking time:</label>
-  <br>
-  <select id="duration" name="duration">
-    <option value="0-1hrs">0-1hrs</option>
-    <option value="1-2hrs">1-2hrs</option>
-    <option value="2-3hrs">2-3hrs</option>
-    <option value="3+hrs">3+hrs</option>
-  </select>
-  <br>
-  <br>
+          <div>
+            <label class="form item" for="duration">walking time:</label>
+            <br>
+            <select id="duration" name="duration">
+              <option value="0-1hrs">0-1hrs</option>
+              <option value="1-2hrs">1-2hrs</option>
+              <option value="2-3hrs">2-3hrs</option>
+              <option value="3+hrs">3+hrs</option>
+            </select>
+          </div>
+          <br>
+          <br>
+      <label class="form item" for="difficulty">difficulty:</label>
+            <br>
+            <select id="difficulty" name="difficulty">
+              <option value="easy">easy</option>
+              <option value="intermediate">intermediate</option>
+              <option value="hard">hard</option>
+            </select>
+          </div>
+          <br>
+          <br>
+      <div>
+        <button class="btn" type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
 
-  <label for="difficulty">difficulty:</label>
-  <br>
-  <select id="difficulty" name="difficulty">
-    <option value="easy">easy</option>
-    <option value="intermediate">intermediate</option>
-    <option value="hard">hard</option>
-  </select>
-  <br>
-  <br>
-  <input type="submit" value="Submit">
-
-
-</form>
+</body> 
