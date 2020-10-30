@@ -10,9 +10,9 @@ router.get('/', (req, res) => {
   })
 
 
-  // router.get('/:id', (req, res) => {
-  //   res.render('./form')
-  // })
+  router.get('/:id', (req, res) => {
+    res.render('./form')
+  })
 
   router.get('/:id', (req, res) => {
     db.getRegion(req.params.id)
