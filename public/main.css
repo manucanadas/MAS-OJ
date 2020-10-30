@@ -7,6 +7,11 @@ a {
   align-content: center;
 }
 
+a:hover {
+  font-size: 300%;
+}
+
+
 body {
   font-family: 'Roboto', sans-serif;
   text-align: center;
@@ -32,7 +37,7 @@ font-weight: lighter;
 }
 
 .card  {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1); /* this adds the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1); /* this adds the "card" effect */
   padding: 20px;
   text-align: center;
   background-color: #f4f4f4;
